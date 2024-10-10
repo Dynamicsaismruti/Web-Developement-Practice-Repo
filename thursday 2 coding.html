@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Advanced Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f0f0f0;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        main {
+            margin: 20px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        form {
+            margin-top: 20px;
+        }
+        @media (max-width: 600px) {
+            body {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Advanced Web Page!</h1>
+        <nav>
+            <a href="#about" style="color: white;">About</a> |
+            <a href="#contact" style="color: white;">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About This Page</h2>
+            <p>This page demonstrates various HTML elements and techniques.</p>
+            <h3>Image Example</h3>
+            <img src="https://via.placeholder.com/600x300" alt="Placeholder Image">
+        </section>
+
+        <section>
+            <h2>Table Example</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </tr>
+                <tr>
+                    <td>Alice</td>
+                    <td>30</td>
+                    <td>New York</td>
+                </tr>
+                <tr>
+                    <td>Bob</td>
+                    <td>25</td>
+                    <td>Los Angeles</td>
+                </tr>
+                <tr>
+                    <td>Charlie</td>
+                    <td>35</td>
+                    <td>Chicago</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Form</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+        <section>
+            <h2>Video Example</h2>
+            <video controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section>
+            <h2>Audio Example</h2>
+            <audio controls>
+                <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+                Your browser does not support the audio tag.
+            </audio>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Web Page. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
