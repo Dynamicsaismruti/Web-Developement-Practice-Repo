@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Advanced HTML Page</title>
+    <style>
+        /* Internal CSS */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Advanced Web Page</h1>
+        <p>Here, you can learn more about web development!</p>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Section -->
+    <section id="home">
+        <h2>Home Section</h2>
+        <p>This is the home section of the page. You can use it to introduce the website or feature any important updates.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome! I am a web developer with experience in HTML, CSS, JavaScript, and more. My goal is to help businesses create user-friendly, accessible websites.</p>
+        <img src="https://via.placeholder.com/300" alt="Profile Picture" style="max-width: 100%; height: auto;">
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <ul>
+            <li><strong>Web Design:</strong> Custom website design for your brand.</li>
+            <li><strong>Development:</strong> HTML, CSS, JavaScript, and backend technologies.</li>
+            <li><strong>SEO Optimization:</strong> Improve your site's visibility on search engines.</li>
+        </ul>
+
+        <h3>Contact Form</h3>
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 My Web Page. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
