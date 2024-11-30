@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extended HTML Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            max-width: 300px;
+            margin: 5px;
+        }
+        .form-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Extended HTML Page</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Home Section</h2>
+        <p>This is an extended example with more HTML features, such as images, a gallery, and forms.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Section</h2>
+        <p>This page demonstrates how to use basic HTML to create structured content with navigation, sections, images, and forms.</p>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Image Gallery</h2>
+        <p>Here’s an example of a simple image gallery:</p>
+        <img src="https://via.placeholder.com/300x200?text=Image+1" alt="Placeholder Image 1">
+        <img src="https://via.placeholder.com/300x200?text=Image+2" alt="Placeholder Image 2">
+        <img src="https://via.placeholder.com/300x200?text=Image+3" alt="Placeholder Image 3">
+    </section>
+
+    <section id="contact">
+        <h2>Contact Section</h2>
+        <p>If you want to get in touch, you can use the form below:</p>
+        <div class="form-container">
+            <form action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Extended HTML Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
